@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcronixOS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #0078d7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin: 0;
+        }
+        .features {
+            list-style-type: none;
+            padding: 0;
+        }
+        .features li {
+            background: #eaf3fa;
+            border: 1px solid #0078d7;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .newfunc {
+            list-style-type: none;
+            padding: 0;
+        }
+        .newfunc li {
+            background: #eaf3fa;
+            border: 1px solid #0078d7;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #0078d7;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #005a9e;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AcronixOS</h1>
+    <p>Лёгкая и мощная операционная система</p>
+</header>
+
+<div class="container">
+    <h2>Преимущества AcronixOS</h2>
+    <ul class="features">
+        <li>📈 Высокая производительность</li>
+        <li>🔒 Безопасность</li>
+        <li>👍 Удобство в работе</li>
+        <li>📦 Маленький размер - всего 40 мегабайт</li>
+        <li>🚀 Не является ни Linux, ни Windows</li>
+    </ul>
+    <h2>Что будет нового в 1.9?</h2>
+    <ul class="newfunc">
+    	<li>🖥️ AcronixOS Workspace — новый способ взаимодействия с системой</li>
+	    <li>📂 OSzip — архиватор для AcronixOS</li>
+		<li> 📄Обновленный DocsViewer — теперь с кастомизацией и поддержкой Workspace</li>
+		<li> 🗃️ Новый формат файла — DVIEW для документов DocsViewer</li>
+		<li>👋 Новое приветствие — система будет вас встречать по-новому</li>
+		<li>🔐 Ваше личное пространство — теперь для доступа к системе можно установить пароль</li>
+	<h2>Ссылки</h2>
+    <button onclick="download()">Скачать AcronixOS</button>
+    <button onClick=telegram()">Наш Telegram-канал</button>
+</div>
+
+<footer>
+    <p>Узнайте больше на <a href="https://github.com/PlatonIvashin/AcronixOS" target="_blank" style="color: #0078d7;">GitHub</a></p>
+    <p>E-mail: <a href="mailto:mixerteka.group@bk.ru">mixerteka.group@bk.ru</a></p>
+</footer>
+
+<script>
+    function download() {
+        window.location.href = "https://github.com/PlatonIvashin/AcronixOS";
+    }
+    function telegram() {
+    	window.location.href = "https://t.me/AcronixOS";
+    }
+    console.log("Page successfully loaded")
+</script>
+
+</body>
+</html>
